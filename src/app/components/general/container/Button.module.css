@@ -1,0 +1,14 @@
+.button {
+  background: var(--button-background);
+  border-radius: 4px;
+  padding: 10px 28px;
+  border: none;
+}
+
+.buttonText {
+  font-weight: var(--middle-font-weight);
+  font-size: 16px;
+  line-height: 24px;
+  color: #f9fafb;
+  text-wrap: nowrap;
+}

@@ -1,13 +1,39 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --regular-font-weight: 400;
+  --regular-font-line: 24px;
+  --header-font-weight: 900;
+  --header-font-size: 30px;
+  --header-font-line: 36px;
+  --middle-font-weight: 700;
+  --middle-font-size: 24px;
+  --middle-font-line: 32px;
+  --middle-radius: 16px;
+  --regular-font-color: #111827;
+  --header-background: #f9fafb;
+  --button-background: #8b5cf6;
+  --button-padding: 10px 28px;
+  --regular-radius: 4px;
+  --main-background: #e5e7eb;
+}
 
+.container {
+  max-width: 1920px;
+  padding: 72px 192px;
 }
 
 p {
-	
+  font-size: 1rem;
+  font-weight: var(--regular-font-weight);
+  line-height: var(--regular-font-line);
 }
 
+h2 {
+  font-size: --header-font-size;
+  line-height: --header-font-line;
+  font-weight: --header-font-weight;
+}
 
 body {
   font-family: Arial, Helvetica, sans-serif;
@@ -15,9 +41,19 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.visuallyHidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+  clip: rect(0, 0, 0, 0);
+  overflow: hidden;
+}
+
 * {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
 }
-

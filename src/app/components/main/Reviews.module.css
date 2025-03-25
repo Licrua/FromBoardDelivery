@@ -1,0 +1,73 @@
+.slider {
+  position: relative;
+  margin: 0 auto;
+  text-align: center;
+}
+
+
+.reviews {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.review {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: left;
+  width: 626px;
+  position: relative;
+}
+.title {
+	margin-bottom: 32 px;
+}
+
+.review p {
+  font-size: 24px;
+  line-height: 32px;
+  font-weight: 700;
+}
+
+.review cite {
+  display: flex;
+  align-items: end;
+  font-size: 24px;
+  line-height: 32px;
+  font-weight: 300;
+  color: #6b7280;
+  margin-top: 10px;
+}
+
+.quote {
+  position: absolute;
+  bottom: 10px;
+  right: 15px;
+}
+
+.prev,
+.next {
+  color: var(--button-background);
+  position: absolute;
+  top: 50%;
+  background: transparent;
+  transform: translateY(-50%);
+  border: 3px solid var(--button-background);
+  padding: 10px;
+  border-radius: 50%;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.prev {
+  left: -40px;
+}
+
+.next {
+  right: -40px;
+}
+
+.next:hover, .prev:hover {
+	scale: 1.2;
+}
